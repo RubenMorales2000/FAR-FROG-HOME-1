@@ -27,7 +27,7 @@ public class DetectCollision : MonoBehaviour
         }
         if(vidas == 0){ SceneManager.LoadScene ("MUERTE");Debug.Log("Has muerto");}
 
-        Debug.Log(vidas);
+        
 
     }
 
