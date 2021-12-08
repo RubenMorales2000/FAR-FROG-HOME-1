@@ -26,7 +26,6 @@ public class DetectCollision : MonoBehaviour
                     SoundManagerPlayer.PlaySounds("collision");
                 }
                 vidas--;
-                Debug.Log(vidas);
             }
         }
     }
