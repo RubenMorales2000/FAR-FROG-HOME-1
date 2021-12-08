@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class DetectCollision : MonoBehaviour
 {
-     public GameObject player;
+    public GameObject menuMuerteUI;
+    public GameObject player;
      public int vidas = 3;
     static bool invulnerability = false;
      void Start()
     {
+        menuMuerteUI.SetActive(false);
     }
     
     void OnCollisionEnter(Collision collision)
@@ -24,6 +26,7 @@ public class DetectCollision : MonoBehaviour
                     SoundManagerPlayer.PlaySounds("collision");
                 }
                 vidas--;
+                Debug.Log(vidas);
             }
         }
     }
@@ -36,7 +39,8 @@ public class DetectCollision : MonoBehaviour
         if(vidas == 0){
             SoundManagerPlayer.PlaySounds("death");
             System.Threading.Thread.Sleep(1000);
-            SceneManager.LoadScene ("MUERTE");Debug.Log("Has muerto");
+            menuMuerteUI.SetActive(true);
+
         }
         if(player.transform.position.z > 400){
           SceneManager.LoadScene ("2DO NIVEL");
@@ -50,6 +54,11 @@ public class DetectCollision : MonoBehaviour
     {
         Thread.Sleep(1000);
         invulnerability = false;
+    }
+
+    public void volverAinicio()
+    {
+        SceneManager.LoadScene("MenuPrincipal");
     }
 
 }

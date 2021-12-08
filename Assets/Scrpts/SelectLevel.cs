@@ -37,6 +37,6 @@ public class SelectLevel : MonoBehaviour
 
     public void goBack()
     {
-
+        SceneManager.LoadScene("MenuPrincipal");
     }
 }
