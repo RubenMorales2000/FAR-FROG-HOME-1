@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class menuPausa : MonoBehaviour
+public class MenuPausa : MonoBehaviour
 {
     public static bool GameIsPaused = false;
 
@@ -35,7 +35,7 @@ public class menuPausa : MonoBehaviour
         Debug.Log("pressed");
     }
 
-    void Pause ()
+    public void Pause ()
     {
         menuPausaUI.SetActive(true);
         Time.timeScale = 0f;
