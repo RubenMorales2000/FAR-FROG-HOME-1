@@ -36,7 +36,12 @@ public class DetectCollision : MonoBehaviour
         if(vidas == 0){
             SoundManagerPlayer.PlaySounds("death");
             System.Threading.Thread.Sleep(1000);
-            SceneManager.LoadScene ("MUERTE");Debug.Log("Has muerto");}
+            SceneManager.LoadScene ("MUERTE");Debug.Log("Has muerto");
+        }
+        if(player.transform.position.z > 400){
+          SceneManager.LoadScene ("2DO NIVEL");
+        }
+
 
         
 
