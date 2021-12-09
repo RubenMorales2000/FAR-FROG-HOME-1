@@ -31,7 +31,17 @@ public class BarraVida : MonoBehaviour
             }
         }
     }
-     public static void InvulnerabilitySet()
+    void OnTriggerEnter(Collider other)
+    {
+        if (!invulnerability)
+        {
+            Thread thred = new Thread(new ThreadStart(InvulnerabilitySet));
+            invulnerability = true;
+            thred.Start();
+            VidaACt--;
+        }
+    }
+    public static void InvulnerabilitySet()
     {
         Thread.Sleep(1000);
         invulnerability = false;

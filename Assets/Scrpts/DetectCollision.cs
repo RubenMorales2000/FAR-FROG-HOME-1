@@ -10,6 +10,7 @@ public class DetectCollision : MonoBehaviour
     public GameObject player;
      public int vidas = 3;
     static bool invulnerability = false;
+    static bool muerto = false;
      void Start()
     {
         menuMuerteUI.SetActive(false);
@@ -43,10 +44,13 @@ public class DetectCollision : MonoBehaviour
           SceneManager.LoadScene ("2DO NIVEL");
         }
         if(vidas == 0){
-            SoundManagerPlayer.PlaySounds("death");
-            System.Threading.Thread.Sleep(1000);
-            menuMuerteUI.SetActive(true);
-
+            if (!muerto) {
+                muerto = true;
+                SoundManagerPlayer.PlaySounds("death");
+                System.Threading.Thread.Sleep(1000);
+                menuMuerteUI.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
         if(player.transform.position.z > 400){
           SceneManager.LoadScene ("2DO NIVEL");
@@ -56,7 +60,21 @@ public class DetectCollision : MonoBehaviour
         
 
     }
-    public static void InvulnerabilitySet()
+    void OnTriggerEnter(Collider other)
+    {
+        if (!invulnerability)
+        {
+            Thread thred = new Thread(new ThreadStart(InvulnerabilitySet));
+            invulnerability = true;
+            thred.Start();
+            if (vidas > 1)
+            {
+                SoundManagerPlayer.PlaySounds("collision");
+            }
+            vidas--;
+        }
+    }
+        public static void InvulnerabilitySet()
     {
         Thread.Sleep(1000);
         invulnerability = false;

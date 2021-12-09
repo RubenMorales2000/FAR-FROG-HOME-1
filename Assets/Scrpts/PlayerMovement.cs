@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
  
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody _rb;
     [SerializeField] private float _jumpForce = 300;
     bool isGrounded = true;
-
+    static bool onCooldown = false;
     void Start(){
         
     }
@@ -24,9 +25,12 @@ public class PlayerMovement : MonoBehaviour
         
        
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded == true ){
-            
-             _rb.AddForce(Vector3.up * _jumpForce);
-             
+            if (!onCooldown) {
+                Thread thred = new Thread(new ThreadStart(SetCooldown));
+                onCooldown = true;
+                thred.Start();
+                _rb.AddForce(Vector3.up * _jumpForce);
+            }
         }
     }
 
@@ -46,5 +50,10 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionStay(Collision collision){
         if (collision.collider.name == "loopableCity" || collision.collider.name == "loopableCity(Clone)"){ isGrounded = true;}
         Debug.Log(collision.collider.name);
+    }
+    public static void SetCooldown()
+    {
+        Thread.Sleep(3000);
+        onCooldown = false;
     }
 } 

@@ -2186,7 +2186,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 17b2ab32e0df90e4e99dfd633b49bf94, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.155
+  m_Volume: 0.06
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4301,6 +4301,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3865634179582319231, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
   m_PrefabInstance: {fileID: 98398985635776531}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1969706946
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969706940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 866.1245, y: 4.8330383, z: 1.4221802}
+  m_Center: {x: 731.067, y: 225.6219, z: 76.713776}
+--- !u!65 &1969706947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969706940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 866.1245, y: 4.833023, z: 0.73547363}
+  m_Center: {x: 731.067, y: 225.62189, z: 68.490845}
 --- !u!1 &2004569040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,6 +4746,26 @@ PrefabInstance:
     - target: {fileID: 3865634179582319231, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
       propertyPath: m_Name
       value: loopableCity
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865634179582319231, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6212455185503520689, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6212455185503520689, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075188495187182349, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075188495187182349, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3399a7beac32c8440b816c6a94517478, type: 3}
