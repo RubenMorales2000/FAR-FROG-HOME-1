@@ -42,4 +42,9 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = false;
         
     }
+
+    void OnCollisionStay(Collision collision){
+        if (collision.collider.name == "loopableCity" || collision.collider.name == "loopableCity(Clone)"){ isGrounded = true;}
+        Debug.Log(collision.collider.name);
+    }
 } 
