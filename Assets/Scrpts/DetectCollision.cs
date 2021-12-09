@@ -64,7 +64,7 @@ public class DetectCollision : MonoBehaviour
 
     public void volverAinicio()
     {
-        SceneManager.LoadScene("MenuPrincipal");
+        SceneManager.LoadScene("MENU PRINCIPAL");
     }
 
 }
