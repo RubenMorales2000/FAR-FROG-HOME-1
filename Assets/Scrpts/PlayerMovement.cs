@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
                 Thread thred = new Thread(new ThreadStart(SetCooldown));
                 onCooldown = true;
                 thred.Start();
+                SoundManagerPlayer.PlaySounds("playerJump");
                 _rb.AddForce(Vector3.up * _jumpForce);
             }
         }
