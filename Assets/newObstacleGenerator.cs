@@ -33,6 +33,7 @@ public class newObstacleGenerator : MonoBehaviour
     private void spawnRandomObstacle()
     {
         GameObject obstacleToSpawn = getRandomObstacle();
+        obstacleToSpawn.tag = "obstaculo";
         Vector3 spawnPos = new Vector3(currentGenerationPoint, obstacleToSpawn.transform.position.y, obstacleToSpawn.transform.position.z);
         Instantiate(obstacleToSpawn, spawnPos, obstacleToSpawn.transform.rotation);
         currentGenerationPoint -= distanceBetweenObstacles;

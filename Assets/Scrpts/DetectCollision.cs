@@ -17,7 +17,10 @@ public class DetectCollision : MonoBehaviour
     
     void OnCollisionEnter(Collision collision)
     {  
-        if(collision.collider.tag == "obstaculo"){
+       Debug.Log(collision.collider.name);
+        string c = collision.collider.name;
+        if(c.Contains("pC") || c.Contains("colli")){
+           
             if (!invulnerability) {
                 Thread thred = new Thread(new ThreadStart(InvulnerabilitySet));
                 invulnerability = true;

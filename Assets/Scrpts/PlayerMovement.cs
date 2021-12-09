@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     void Update() {
 
 
-        var vel = new Vector3(-5, 0, Input.GetAxis("Horizontal")) * _speed;
+        var vel = new Vector3(-4, 0, Input.GetAxis("Horizontal")) * _speed;
         vel.y = _rb.velocity.y;
         _rb.velocity = vel;
         
@@ -31,15 +31,15 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collision){
-    if (collision.collider.tag == "suelo"){
+    
         isGrounded = true;
-        }
+        
     }   
 
 
     void OnCollisionExit(Collision collision){
-    if (collision.collider.tag == "suelo"){
+   
         isGrounded = false;
-        }
+        
     }
 } 
