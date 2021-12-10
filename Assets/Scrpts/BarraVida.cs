@@ -6,15 +6,20 @@ using System.Threading;
 
 public class BarraVida : MonoBehaviour
 {
-    public Image Vida;
-    public float VidaMax;
+    
+     public Image Vida1;
+    public Image Vida2;
+    public Image Vida3;
+    
     public float VidaACt;
     static bool invulnerability = false;
 
     // Update is called once per frame
     void Update()
     {
-        Vida.fillAmount = VidaACt/VidaMax;
+        if(VidaACt == 2){Vida3.GetComponent<Image>().color = new Color32(255,255,225,100);}
+        if(VidaACt == 1){Vida1.GetComponent<Image>().color = new Color32(255,255,225,100);}
+        if(VidaACt == 0){Vida2.GetComponent<Image>().color = new Color32(255,255,225,100);}
     }
      void OnCollisionEnter(Collision collision)
     {  
