@@ -62,21 +62,21 @@ public class DetectCollision : MonoBehaviour
         
 
     }
-    void OnTriggerEnter(Collider other)
-    {
-        if (!invulnerability)
-        {
-            Thread thred = new Thread(new ThreadStart(InvulnerabilitySet));
-            invulnerability = true;
-            thred.Start();
-            if (vidas > 1)
-            {
-                SoundManagerPlayer.PlaySounds("collision");
-            }
-            vidas--;
-        }
-    }
-        public static void InvulnerabilitySet()
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    if (!invulnerability)
+    //    {
+    //        Thread thred = new Thread(new ThreadStart(InvulnerabilitySet));
+    //        invulnerability = true;
+    //        thred.Start();
+    //        if (vidas > 1)
+    //        {
+    //            SoundManagerPlayer.PlaySounds("collision");
+    //        }
+    //        vidas--;
+    //    }
+    //}
+    public static void InvulnerabilitySet()
     {
         Thread.Sleep(1000);
         invulnerability = false;
