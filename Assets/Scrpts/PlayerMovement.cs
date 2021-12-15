@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 StaminaBar.instance.UseStamina(stamina);
                 _rb.AddForce(Vector3.up * _jumpForce);
+                SoundManagerPlayer.PlaySounds("playerJump");
             }
         }
     }
