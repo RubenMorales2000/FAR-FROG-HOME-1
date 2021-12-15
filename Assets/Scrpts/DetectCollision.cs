@@ -14,6 +14,8 @@ public class DetectCollision : MonoBehaviour
      void Start()
     {
         menuMuerteUI.SetActive(false);
+        muerto = false;
+        Time.timeScale = 1f;
     }
     
     void OnCollisionEnter(Collision collision)
@@ -89,6 +91,7 @@ public class DetectCollision : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
+        
 
     }
 
