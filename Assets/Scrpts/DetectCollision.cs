@@ -37,7 +37,7 @@ public class DetectCollision : MonoBehaviour
     void Update() {
      
         if(player.transform.position.y < -10){
-          SceneManager.LoadScene ("MUERTE");
+            menuMuerteUI.SetActive(true);
         }
         if(player.transform.position.x < -2103){
           Debug.Log("NIVEL SUPERADO")  ;
@@ -83,6 +83,13 @@ public class DetectCollision : MonoBehaviour
     public void volverAinicio()
     {
         SceneManager.LoadScene("MENU PRINCIPAL");
+    }
+
+    public void reintentar()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
+
     }
 
 }

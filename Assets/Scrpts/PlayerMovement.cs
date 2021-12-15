@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _speed = 1;
     [SerializeField] private Rigidbody _rb;
     [SerializeField] private float _jumpForce = 300;
+    [SerializeField] private int stamina = 40;
     bool isGrounded = true;
     static bool onCooldown = false;
     void Start(){
@@ -25,11 +26,18 @@ public class PlayerMovement : MonoBehaviour
         
        
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded == true ){
-            if (!onCooldown) {
-                Thread thred = new Thread(new ThreadStart(SetCooldown));
-                onCooldown = true;
-                thred.Start();
-                SoundManagerPlayer.PlaySounds("playerJump");
+            //if (!onCooldown)
+            //{
+            //    Thread thred = new Thread(new ThreadStart(SetCooldown));
+            //    onCooldown = true;
+            //    thred.Start();
+            //    SoundManagerPlayer.PlaySounds("playerJump");
+            //    _rb.AddForce(Vector3.up * _jumpForce);
+
+            //}
+            if (StaminaBar.instance.getStamina() > stamina)
+            {
+                StaminaBar.instance.UseStamina(stamina);
                 _rb.AddForce(Vector3.up * _jumpForce);
             }
         }
