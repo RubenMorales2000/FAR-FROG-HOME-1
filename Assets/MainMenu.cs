@@ -5,13 +5,18 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+    void Start()
+    {
+
+    }
     public void playFirstScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("AnimacionIntro");
     }
 
     public void QuitGame()
     {
         Application.Quit();
     }
+    
 }
