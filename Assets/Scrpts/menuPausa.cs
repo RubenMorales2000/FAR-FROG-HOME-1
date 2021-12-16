@@ -44,11 +44,11 @@ public class menuPausa : MonoBehaviour
 
     public void LoadMenu()
     {
-        //SceneManager.LoadScene("MENU");
+        SceneManager.LoadScene("MENU PRINCIPAL");
     }
 
     public void QuitMenu()
     {
-        //Application.Quit();
+        Application.Quit();
     }
 }
