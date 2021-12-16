@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 
-    public GameObject player;       
+    public Rigidbody rb;  
 
 
     private Vector3 offset;           
@@ -12,13 +12,13 @@ public class CameraController : MonoBehaviour {
     void Start () 
     {
        
-        offset = transform.position - player.transform.position;
+        offset = transform.position - rb.transform.position;
     }
 
   
     void LateUpdate () 
     {
         
-        transform.position = player.transform.position + offset;
+        transform.position = rb.transform.position + offset;
     }
 }
