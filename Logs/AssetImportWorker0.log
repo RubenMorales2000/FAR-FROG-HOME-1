@@ -3096,3 +3096,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 434.406236 seconds.
+  path: Assets/Scenes/2DO NIVEL.unity
+  artifactKey: Guid(4ec65d47de17afd419433993307e792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2DO NIVEL.unity using Guid(4ec65d47de17afd419433993307e792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bcb67b82a4780d12e17611acc86d40') in 0.022622 seconds 
+  Import took 0.026203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.376777 seconds.
+  path: Assets/Materials/mosquito/lambert5.mat
+  artifactKey: Guid(b3822c44b18124a42a5c97ff2c0ab9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mosquito/lambert5.mat using Guid(b3822c44b18124a42a5c97ff2c0ab9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd73b1d5fd66266a3f19733a6183fc2a') in 0.110778 seconds 
+  Import took 0.117477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009274 seconds.
+  path: Assets/Materials/sky.png
+  artifactKey: Guid(b83f5e99ae88c9148a453e3954d957cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sky.png using Guid(b83f5e99ae88c9148a453e3954d957cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db326bdfbc6b3101eb19f11dd1459869') in 0.019273 seconds 
+  Import took 0.022492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006515 seconds.
+  path: Assets/Materials/mosquito/lambert8.mat
+  artifactKey: Guid(d5345e15c8f1d994996dee3b3debf8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mosquito/lambert8.mat using Guid(d5345e15c8f1d994996dee3b3debf8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9808664548d5a45a9c36aeaa38d74882') in 0.019835 seconds 
+  Import took 0.023314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009803 seconds.
+  path: Assets/Materials/mosquito/lambert6.mat
+  artifactKey: Guid(429d7dbeab5bfdd4d906eeec7754e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mosquito/lambert6.mat using Guid(429d7dbeab5bfdd4d906eeec7754e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b98094d7b210e9bac4769752f18d35') in 0.020565 seconds 
+  Import took 0.025246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041088 seconds.
+  path: Assets/Materials/textura_agua.mat
+  artifactKey: Guid(5d8ccb94b3e54cc4495e58b668826785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/textura_agua.mat using Guid(5d8ccb94b3e54cc4495e58b668826785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c4e8e55dd176298f48dcf628602239') in 0.019580 seconds 
+  Import took 0.022553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050585 seconds.
+  path: Assets/Materials/rana/pasted__lambert3 1.mat
+  artifactKey: Guid(9e2df0375583cbe41826ca2c702a924b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rana/pasted__lambert3 1.mat using Guid(9e2df0375583cbe41826ca2c702a924b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a58b50a56a89de3bfef00c6519e5227') in 0.015358 seconds 
+  Import took 0.018419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009843 seconds.
+  path: Assets/Materials/rana/pasted__lambert7 1.mat
+  artifactKey: Guid(3bad8772071fb8e4c83fe3c7e0c2e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rana/pasted__lambert7 1.mat using Guid(3bad8772071fb8e4c83fe3c7e0c2e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bf964fae284585d5d0f641390f25ce') in 0.016033 seconds 
+  Import took 0.018973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009201 seconds.
+  path: Assets/Materials/rana/lambert7 1.mat
+  artifactKey: Guid(33e740d6114bce44e9b56f66467218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rana/lambert7 1.mat using Guid(33e740d6114bce44e9b56f66467218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443ee6e81b93d73888b62a229f48e5b2') in 0.015571 seconds 
+  Import took 0.018799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009078 seconds.
+  path: Assets/PERSONAJESNIVEL2/renacuajoN2.controller
+  artifactKey: Guid(1a7dcb60006f3674cb8d17c0a9974b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PERSONAJESNIVEL2/renacuajoN2.controller using Guid(1a7dcb60006f3674cb8d17c0a9974b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae9a67c81c7c19dccbc5d44b4cf4157') in 0.009000 seconds 
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022017 seconds.
+  path: Assets/Materials/rana/lambert5.mat
+  artifactKey: Guid(d2b303ac517eabd4fbd7a1ace2448e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rana/lambert5.mat using Guid(d2b303ac517eabd4fbd7a1ace2448e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e98e36d5a6a4ad9f2649f6fd53a5c5') in 0.013184 seconds 
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009144 seconds.
+  path: Assets/Scrpts/Collision2.cs
+  artifactKey: Guid(d46d25dfcfde99b49b4016562b906812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrpts/Collision2.cs using Guid(d46d25dfcfde99b49b4016562b906812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9328902c444fde85f30d64b85afca5') in 0.016961 seconds 
+  Import took 0.020025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015655 seconds.
+  path: Assets/Scenes/2DO NIVEL/NavMesh.asset
+  artifactKey: Guid(1573afd624cebb5448c4c54e8bd488cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2DO NIVEL/NavMesh.asset using Guid(1573afd624cebb5448c4c54e8bd488cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41c62adb798514ad43d12175f2f19ca') in 0.008557 seconds 
+  Import took 0.011805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034653 seconds.
+  path: Assets/Materials/mosquito/cola.mat
+  artifactKey: Guid(3b6d64d1ff418264ca63becf92b153b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mosquito/cola.mat using Guid(3b6d64d1ff418264ca63becf92b153b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83f1d2a83b52fcea1fd914f56799f01') in 0.015502 seconds 
+  Import took 0.018399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022269 seconds.
+  path: Assets/SpawnComida.cs
+  artifactKey: Guid(f567d9cc2e1288f40be5bc93e4ba0d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnComida.cs using Guid(f567d9cc2e1288f40be5bc93e4ba0d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d63b70fba50473cc4c2e79a3132231') in 0.006896 seconds 
+  Import took 0.009912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007228 seconds.
+  path: Assets/SpawnPoint.cs
+  artifactKey: Guid(1a17a90914751fb44a6919dcde47ca92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnPoint.cs using Guid(1a17a90914751fb44a6919dcde47ca92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9d06003cd13fb086438b1f9c2f7868') in 0.006564 seconds 
+  Import took 0.009026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013977 seconds.
+  path: Assets/Materials/mosquito/alas.mat
+  artifactKey: Guid(e973d64d91a77ce4680c2bb67194e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mosquito/alas.mat using Guid(e973d64d91a77ce4680c2bb67194e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24413e8977b29569616468da35fc467') in 0.015382 seconds 
+  Import took 0.017866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008334 seconds.
+  path: Assets/Materials/sky.mat
+  artifactKey: Guid(c31e7ef068de7234c82988a5432f8ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sky.mat using Guid(c31e7ef068de7234c82988a5432f8ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a1d48417c6374641af6f6b3045a8d4') in 0.013878 seconds 
+  Import took 0.016687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008118 seconds.
+  path: Assets/GetPoint.cs
+  artifactKey: Guid(0c7948a8fd5d7764b80ab53bc8f9ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetPoint.cs using Guid(0c7948a8fd5d7764b80ab53bc8f9ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a056d644e246834bdb624127e8003f') in 0.006204 seconds 
+  Import took 0.008655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034884 seconds.
+  path: Assets/Scrpts/BarraComida.cs
+  artifactKey: Guid(67bc4af39c6ff96489d28fe7c20a2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrpts/BarraComida.cs using Guid(67bc4af39c6ff96489d28fe7c20a2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd7eebf2098955392ae324dd6c9d849') in 0.006788 seconds 
+  Import took 0.009754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057281 seconds.
+  path: Assets/Materials/TEXTURA-AAGUA.jpg
+  artifactKey: Guid(a41b9a64af625b641a09116b813e8a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TEXTURA-AAGUA.jpg using Guid(a41b9a64af625b641a09116b813e8a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9777180af981bd43125ddf4f4237282') in 0.015836 seconds 
+  Import took 0.018670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008890 seconds.
+  path: Assets/Materials/rana/pasted__phong2.mat
+  artifactKey: Guid(f6952b8ebfb85674394c161d97ce4555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rana/pasted__phong2.mat using Guid(f6952b8ebfb85674394c161d97ce4555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7050266476c121dc154788e679accce') in 0.015526 seconds 
+  Import took 0.018857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030798 seconds.
+  path: Assets/Scrpts/Player2Movement.cs
+  artifactKey: Guid(0eb4993ff312fd1498c66d04c4d6a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrpts/Player2Movement.cs using Guid(0eb4993ff312fd1498c66d04c4d6a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31af260789c764f6824635296328635f') in 0.006247 seconds 
+  Import took 0.010527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023636 seconds.
+  path: Assets/Materials/rana/lambert6 1.mat
+  artifactKey: Guid(dc79b0f113bc85941a9d33d14890f52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rana/lambert6 1.mat using Guid(dc79b0f113bc85941a9d33d14890f52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ab12f74d84ce1b943a825ceb1afb57') in 0.014953 seconds 
+  Import took 0.018852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009014 seconds.
+  path: Assets/NPCController.cs
+  artifactKey: Guid(7ff493077a2e1d8408b8b197b27bc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCController.cs using Guid(7ff493077a2e1d8408b8b197b27bc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59c5391d63e31b31bdd178bedb78e57') in 0.006205 seconds 
+  Import took 0.009055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022848 seconds.
+  path: Assets/Materials/mosquito/lambert7.mat
+  artifactKey: Guid(0475f7699b3b2134791fcb43b4beb2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mosquito/lambert7.mat using Guid(0475f7699b3b2134791fcb43b4beb2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc8caf32a425b046f61d0a996456df2') in 0.013880 seconds 
+  Import took 0.016649 seconds .
+
