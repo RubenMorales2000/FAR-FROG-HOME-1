@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,9 +12,11 @@ public class Collision2 : MonoBehaviour
 
     public int vidas = 3;
     public int comida = 0;
-    public GameObject food;
+    public GameObject jugador;
     public GameObject menuMuerteUI;
-
+    public int x = 10;
+    public int y = 10;
+    public int z = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +39,10 @@ public class Collision2 : MonoBehaviour
             Destroy(collision.collider.gameObject);
 
             imagenProgreso.fillAmount = (float)0.1 * (float)comida;
-
+            x = Convert.ToInt32(x * 1.1);
+            y = Convert.ToInt32(y * 1.1);
+            z = Convert.ToInt32(z * 1.1);
+            jugador.transform.localScale = new Vector3(x,y,z);
             }
         if(c == "obstaculo"){
             vidas--;
