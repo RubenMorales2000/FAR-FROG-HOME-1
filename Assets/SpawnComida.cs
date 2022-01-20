@@ -4,36 +4,51 @@ using UnityEngine;
 
 public class SpawnComida : MonoBehaviour
 {
-    public GameObject comida;                // The prefab to be spawned.
-    public float spawnTime = 6f;            // How long between each spawn.
+    public GameObject comida;           
+    public GameObject enemigo;
+    public float spawnTime = 6f;         
     private Vector3 spawnPosition;
     public int maxComida = 5;
     int comidaCount;
+    public int maxEnemigo = 2;
+    int enemigoCount;
 
     // Use this for initialization
     void Start()
     {
         comidaCount = 0;
+        enemigoCount = 0;
 
-
-            InvokeRepeating("Spawn", spawnTime, spawnTime);
-
-        // Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
-        
+        InvokeRepeating("SpawnFood", spawnTime, spawnTime);
+        InvokeRepeating("SpawnEnemy", spawnTime, spawnTime);
 
     }
 
-    void Spawn()
+    void SpawnFood()
     {
         if (comidaCount < maxComida)
         {
-            spawnPosition.x = Random.Range(-5, 135);
+            spawnPosition.x = Random.Range(-100, 240);
             spawnPosition.y = 0.5f;
-            spawnPosition.z = Random.Range(-15, 70);
+            spawnPosition.z = Random.Range(-240, 100);
 
             Instantiate(comida, spawnPosition, Quaternion.identity);
 
             comidaCount++;
+        }
+    }
+
+    void SpawnEnemy()
+    {
+        if (enemigoCount < maxEnemigo)
+        {
+            spawnPosition.x = Random.Range(-100, 240);
+            spawnPosition.y = 0.5f;
+            spawnPosition.z = Random.Range(-240, 100);
+
+            Instantiate(enemigo, spawnPosition, Quaternion.identity);
+
+            enemigoCount++;
         }
     }
 }

@@ -22,9 +22,20 @@ public class BarraVida : MonoBehaviour
         if(VidaACt == 0){Vida2.GetComponent<Image>().color = new Color32(255,255,225,100);}
     }
      void OnCollisionEnter(Collision collision)
-    {  
-      
+     {   
         string c = collision.collider.name;
+        if (collision.collider.tag == "enemigo")
+        {
+            if (!invulnerability)
+            {
+                Thread thred = new Thread(new ThreadStart(InvulnerabilitySet));
+                invulnerability = true;
+                thred.Start();
+
+                VidaACt--;
+            }
+        }
+
         if(c.Contains("pC") || c.Contains("colli")){
            
             if (!invulnerability) {
