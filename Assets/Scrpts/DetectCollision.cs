@@ -43,7 +43,7 @@ public class DetectCollision : MonoBehaviour
         }
         if(player.transform.position.x < -2103){
           Debug.Log("NIVEL SUPERADO")  ;
-          SceneManager.LoadScene ("2DO NIVEL");
+          SceneManager.LoadScene ("Animatica1");
         }
         if(vidas == 0){
             if (!muerto) {
